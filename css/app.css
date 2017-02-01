@@ -1,0 +1,147 @@
+body {
+	background-color: black;
+	font-family: 'Archivo Narrow' sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+	font-family: 'Archivo Narrow' sans-serif;
+
+}
+
+#social-container {
+	background-color: #1c3643;
+	font-size: 20px;
+}
+
+
+#logo-container .callout{
+/*	background-color: #585858;
+*/	color: white;
+	font-family: 'Squada One';
+	margin: 0 0 -.5rem 0;
+	background-image: url(../assets/gaybg.jpg);
+}
+
+#menu-container {
+	background-color: white;
+}
+
+#menu-container li a {
+	text-transform: uppercase;
+}
+
+#menu-container li a:hover {
+	color: #1c3643;
+}
+
+#submenu-container li a {
+
+}
+
+#offCanvas, #offCanvas li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#tickets-action .callout {
+	background-color: #1c3643;
+	margin-bottom: 0;
+	background-image: url(assets/stage1.png);
+	overflow: auto;
+}
+
+#tickets-action .callout button {
+	border: 1px solid white;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title a {
+	color: white;
+	background-color: black;
+/*	border: white 1px solid;*/
+	/*text-transform: uppercase;*/
+}
+
+#lineup-container .tabs .tabs-title a:hover {
+	color: white;
+	background-color: #1c3643;
+
+}
+
+.tabs {
+	border: none;
+}
+
+.tabs-title {
+	display: inline-block;
+	float: none;
+}
+
+.tabs-content {
+	border: none;
+}
+
+.tabs-panel {
+	color: white;
+	display: block;
+	background-color: black;
+}
+
+#lineup-container .orbit-container {
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+	text-align: right;
+}
+
+#tickets-container {
+	background-color: white;
+	padding: 1rem;
+}
+
+#info-container {
+	background-color: #585858;
+	color: white;
+}
+
+#info-container .info-map iframe {
+	width: 100%;
+	padding: 0 0 0 0;
+}
+
+#suscribete-container {
+	color: white;
+	padding: 1em;
+}
+
+#suscribete-container .error-container {
+	font-family: 'Archivo Narrow' sans-serif;
+
+}
+
+.data-sticky {
+	width: 100%;
+	z-index: 100;
+}
+
+#offCanvas {
+	background-color: white;
+	font-family: 'Archivo Narrow' sans-serif;
+}
+
+#offCanvas ul {
+	line-height: 2.6;
+}
+
+#offCanvas,
+#offCanvas li a{
+	color: black;
+}
+
+.is-drilldown-submenu-parent > a::after {
+    /*display: none;*/
+margin-right: -11rem;
+}
