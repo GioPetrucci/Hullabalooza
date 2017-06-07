@@ -1,0 +1,22 @@
+{
+  "name": "hullabalooza",
+  "version": "1.0.0",
+  "description": "Página web publicitaria en eventos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GioPetrucci/Hullabalooza.git"
+  },
+  "author": "Jorge Díaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GioPetrucci/Hullabalooza/issues"
+  },
+  "homepage": "https://github.com/GioPetrucci/Hullabalooza#readme",
+  "dependencies": {
+    "hover.css": "^2.0.2"
+  }
+}
